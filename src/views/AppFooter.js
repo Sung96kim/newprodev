@@ -37,8 +37,8 @@ const LANGUAGES = [
     name: 'English',
   },
   {
-    code: 'fr-FR',
-    name: 'Français',
+    code: 'ko-KR',
+    name: 'Korean',
   },
 ];
 

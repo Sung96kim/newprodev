@@ -5,7 +5,7 @@ import Link from '@mui/material/Link';
 import { Field, Form, FormSpy } from 'react-final-form';
 import Typography from './components/Typography';
 import AppFooter from './views/AppFooter';
-import AppAppBar from './views/AppAppBar';
+import NavBar from './views/NavBar';
 import AppForm from './views/AppForm';
 import { email, required } from './form/validation';
 import RFTextField from './form/RFTextField';
@@ -35,7 +35,7 @@ function SignUp() {
 
   return (
     <React.Fragment>
-      <AppAppBar />
+      <NavBar />
       <AppForm>
         <React.Fragment>
           <Typography variant="h3" gutterBottom marked="center" align="center">

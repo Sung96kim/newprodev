@@ -6,14 +6,14 @@ import ProductHero from './views/ProductHero';
 import ProductValues from './views/ProductValues';
 import ProductHowItWorks from './views/ProductHowItWorks';
 import ProductCTA from './views/ProductCTA';
-import AppAppBar from './views/AppAppBar';
+import NavBar from './views/NavBar';
 import withRoot from './withRoot';
 import reportWebVitals from './reportWebVitals';
 
 function Index() {
   return (
     <React.Fragment>
-      <AppAppBar />
+      <NavBar />
       <ProductHero />
       <ProductValues />
       <ProductCategories />
